@@ -1,0 +1,10 @@
+name: JustRemoveDrops
+version: ${project.version}
+main: me.imdanix.drop.JustRemoveDrops
+api-version: 1.13
+description: Just to remove drops from blocks
+commands:
+  justremovedrops:
+    aliases: [jrd]
+    permission: jrd.reload
+    description: Just reload JRD config file.
