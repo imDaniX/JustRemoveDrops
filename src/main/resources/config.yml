@@ -1,2 +1,20 @@
 remove-entity-drop: true
 remove-block-drop: true
+
+# Switch between mobs blacklist and whitelist
+# Whitelist will REMOVE drops if it's IN the list
+# Blacklist will REMOVE drops if it's NOT IN the list
+entities-blacklist: true
+entities: []
+# entities:
+#   - wither
+#   - creeper
+
+# Switch between blocks blacklist and whitelist
+# Whitelist will REMOVE drops if it's IN the list
+# Blacklist will REMOVE drops if it's NOT IN the list
+blocks-blacklist: true
+blocks: []
+# blocks:
+#   - beacon
+#   - furnace
